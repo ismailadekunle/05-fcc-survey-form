@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Hello!</h1>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label"
+        >name <input required id="name" type="text" placeholder="name" />
+      </label>
+      <label id="email-label"
+        >email <input required id="email" type="email" placeholder="email" />
+      </label>
+      <label id="number-label"
+        >number <input id="number" type="number" min="1" max="50" placeholder="number" />
+      </label>
+
+      <select id="dropdown">
+        <option value="dropdown">1</option>
+        <option value="dropdown">2</option>
+      </select>
+      <input type="radio" name="radio" value="radio" />
+      <input type="radio" name="radio" value="radio" />
+      <input type="checkbox" value="checkbox" />
+      <input type="checkbox" value="checkbox" />
+      <textarea>
+ Thank you for cooperation in filling out the survey form.You are much appreciated </textarea
+      >
+
+      <input id="submit" type="submit" />
+    </form>
   </body>
 </html>
