@@ -1,27 +1,43 @@
-# Project Name
+# FCC SURVEY FORM
 
-> One paragraph statement about the project.
+> A survey form used for generating data.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description of the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 form elements
+  - `h1`, `select`, `form`, `button`, `div`, `span`
+  - `textarea`, `label`, `ìnput`, `option`, `fieldset`, .
+- CSS properties
+  - CSS Background for page aesthetic using `background-color`, `background-image`,
+    `box-shadow`, `background-position`,
+    `background-repeat`
+    `text-shadow`, etc.
+  - CSS Typography properties `font-size`, `font-style`, `font-family`, `text-align`, `color`etc
+  - CSS Box Model properties `padding`, `margin`, `width`,`line-height`, `box-sizing`,`border` etc
+  - CSS Positioning properties
+    `position`, `z-index`,
+  - CSS Transitioning properties
+    `transition`.
+  - CSS Pseudo properties
+    `::before`, `::after`.
+- Linters
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fcc-survey-form-ismail.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone git@github.com:ismailadekunle/05-fcc-survey-form.git
 
 ```
 
@@ -65,14 +81,14 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@ismailadekunle](https://github.com/ismailadekunle)
+- Twitter: [@ismailadekunle](https://twitter.com/ismailadekunle)
+- Linkedin: [@ismailAdekunleJIMOH](https://www.linkedin.com/in/ismailAdekunleJIMOH/)
+- Freecodecamp: [@ismailadekunle](https://www.freecodecamp.org/ismailadekunle)
 
 ## 🤝 Contributing
 
@@ -86,9 +102,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- Freecodecamp: (https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
 
 ## 📝 License
 
